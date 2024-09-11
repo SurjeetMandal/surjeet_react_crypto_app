@@ -3,7 +3,7 @@ import NavBar from "./components/NavBar/NavBar.Jsx"
 import Hero from "./components/Hero/HeroTxt"
 import Table from "./components/Table/Table.Jsx"
 
-const f = () => {
+const App = () => {
   return (
     <div className="main">
       <NavBar />
@@ -13,4 +13,4 @@ const f = () => {
   )
 }
 
-export default f
+export default App
