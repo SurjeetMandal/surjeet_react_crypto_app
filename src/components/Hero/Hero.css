@@ -1,0 +1,7 @@
+.hero_para{
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 80px;
+}
