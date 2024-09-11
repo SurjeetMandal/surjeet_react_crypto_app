@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "axios": "^1.7.7",
@@ -29,5 +29,16 @@
     "gh-pages": "^6.1.1",
     "globals": "^15.9.0",
     "vite": "^5.4.1"
+  },
+  "description": "This is my coingecko api project",
+  "main": "eslint.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SurjeetMandal/Surjeet_react_coingecko_project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SurjeetMandal/Surjeet_react_coingecko_project/issues"
   }
 }
