@@ -11,7 +11,7 @@ const Table = () => {
       try {
         const response = await axios.get('https://api.coingecko.com/api/v3/coins/markets', {
           params: {
-            vs_currency: 'usd', // specify the currency you want to use
+            vs_currency: 'usd', 
           }
         });
         setData(response.data);
